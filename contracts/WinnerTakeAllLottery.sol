@@ -1,8 +1,7 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.9;
 
-
-
+// This is a WIP currently and does not have full end to end stable functionality yet.
 contract LotteryDrawToken {
     // This ticket, or rather a draw into the lottery is to be minted to the player upon successful payment into the winnings pool
     mapping(address => uint256) public balances;
